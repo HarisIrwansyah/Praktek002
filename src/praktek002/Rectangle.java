@@ -15,4 +15,8 @@ public class Rectangle {
         luas = panjang*lebar;
         return luas;
     }
+    
+    void Cetakluas(){
+        System.out.println("Jadi, Luasnya adalah : "+hitungluas());
+}
 }

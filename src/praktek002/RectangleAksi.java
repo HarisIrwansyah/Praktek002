@@ -10,6 +10,7 @@ public class RectangleAksi {
             
         r1.CetakInfo();
         System.out.println("Luas Persegi Panjang : "+r1.hitungluas());
+        r1.Cetakluas();
     }
     
 }
