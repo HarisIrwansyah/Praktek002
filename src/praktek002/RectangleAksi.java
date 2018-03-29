@@ -11,6 +11,12 @@ public class RectangleAksi {
         r1.CetakInfo();
         System.out.println("Luas Persegi Panjang : "+r1.hitungluas());
         r1.Cetakluas();
+        
+        Rectangle r2 = new Rectangle();
+        r2.CetakInfo();
+        
+        Rectangle r3 = new Rectangle(12,7);
+        r3.CetakInfo();
     }
     
 }
