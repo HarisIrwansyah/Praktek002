@@ -4,9 +4,15 @@ public class Rectangle {
     double lebar;
     
     void CetakInfo(){
-        System.out.println("###################");
+        System.out.println("###################################");
         System.out.println("Panjang Persegi Panjang : "+panjang);
         System.out.println("Lebar Persegi Panjang   : "+lebar);
         System.out.println("");
+    }
+    
+    double hitungluas(){
+        double luas;
+        luas = panjang*lebar;
+        return luas;
     }
 }
