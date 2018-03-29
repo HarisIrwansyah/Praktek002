@@ -7,6 +7,8 @@ public class RectangleAksi {
             
             r1.panjang = 10;
             r1.lebar = 5;
+            
+        r1.CetakInfo();
     }
     
 }
